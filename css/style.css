@@ -1,0 +1,51 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Reenie+Beanie&display=swap');
+* {
+box-sizing: border-box;
+} 
+
+.background{
+    /*background-image: url("../images/babyB.PNG");*/
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+  .glasses{
+    background-image: url("../images/babyG.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    
+
+  }
+
+.g-grid{
+    display: grid;
+    grid-template-columns: 3fr, 3fr;
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.words {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 5vw ;
+  height: 5vw;
+  font-family: Reenie Beanie;
+  position:absolute;
+  padding-left: 80px;
+  
+}
